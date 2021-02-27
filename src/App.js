@@ -54,7 +54,7 @@ class App extends Component {
     return (
       <div className="container">
       <div className="d-flex flex-column mx-auto">
-      <AppTitle appTitle={'NASA Picture Of The Day'} />
+      <AppTitle appTitle={'NASA Pic Of The Day'} />
       <Logo logo={logo} className="" alt="logo" />
       <Info 
         title={ title || 'no data' } 
