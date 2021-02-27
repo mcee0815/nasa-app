@@ -5,7 +5,6 @@ import Logo from './Logo';
 import logo from './logo.png';
 import Media from './media';
 import AppTitle from './app-title';
-// import AppSubTitle from './app-subtitle';
 
 import Explanation from './explanation';
 
