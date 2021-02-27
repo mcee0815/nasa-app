@@ -5,7 +5,7 @@ import Logo from './Logo';
 import logo from './logo.png';
 import Media from './media';
 import AppTitle from './app-title';
-import AppSubTitle from './app-subtitle';
+// import AppSubTitle from './app-subtitle';
 
 import Explanation from './explanation';
 
@@ -25,9 +25,9 @@ class App extends Component {
     const {url,hdurl,media_type} = this.state.dataSet
     
     if (media_type === 'video') {
-      return <iframe src={url}  className=" " width="450" height="450"></iframe>
+      return <iframe src={url} title='media' width="450" height="450"></iframe>
     } else if (media_type === 'image') {
-      return <img className="img-fluid rounded" src={hdurl} />
+      return <img className="img-fluid rounded" alt="foo" src={hdurl} />
     } 
   }
   async getData(url){

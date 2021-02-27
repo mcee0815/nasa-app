@@ -1,5 +1,5 @@
 import React from 'react';
-import AppTitle from './app-title';
+// import AppTitle from './app-title';
 
 const Explanation = ({explanation}) => {
     return (
