@@ -1,4 +1,4 @@
-# nasa-app
+# NASA-App
 Astronomy Picture of the Day is a website made with ReacJS to consume data provided by NASA API and Michigan Technological University. According NASA, “Each day a different image or photograph of our universe is featured, along with a brief explanation written by a professional astronomer.
 
 
